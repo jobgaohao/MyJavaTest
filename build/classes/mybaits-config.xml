@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="false"></setting>
+		<setting name="defaultExecutorType" value="REUSE"></setting>
+	</settings>
+	<environments default="test">
+		<environment id="test">
+		<transactionManager type="JDBC" />
+				<dataSource type="POOLED">
+					<property name="driver" value="oracle.jdbc.driver.OracleDriver"></property>
+					<property name="url" value="jdbc:oracle:thin:@10.0.6.33:1521:orcl"></property>
+					<property name="username" value="UA_FIN_TEST"></property>
+					<property name="password" value="UA_FIN_TEST"></property>
+				</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="com/zhaogang/com/mybaits/Blog.xml" />
+	</mappers>
+</configuration>
