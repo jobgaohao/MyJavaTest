@@ -2,9 +2,9 @@ package com.zhaogang.com.Adapter.demo3;
 
 public class AClass  extends Adapter{
 	 public void a(){
-	        System.out.println("ÊµÏÖA·½·¨±»µ÷ÓÃ");
+	        System.out.println("å®žçŽ°Aæ–¹æ³•è¢«è°ƒç”¨");
 	    }
 	    public void d(){
-	        System.out.println("ÊµÏÖD·½·¨±»µ÷ÓÃ");
+	        System.out.println("å®žçŽ°Dæ–¹æ³•è¢«è°ƒç”¨");
 	    }
 }

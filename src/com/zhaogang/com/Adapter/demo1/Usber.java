@@ -1,7 +1,7 @@
 package com.zhaogang.com.Adapter.demo1;
 
 /**
- * ¾ßÌåµÄUSB½Ó¿Ú¸ñÊ½
+ * USBå®žçŽ°ç±»
  * @author hao.gao
  *
  */
@@ -9,7 +9,7 @@ public class Usber implements Usb {
 
 	@Override
 	public void isUsb() {
-		System.out.println("USB ½Ó¿Ú");
+		System.out.println("USB Â½Ã“Â¿Ãš");
 	}
 
 }

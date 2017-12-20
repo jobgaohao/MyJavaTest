@@ -1,7 +1,7 @@
 package com.zhaogang.com.Adapter.demo1;
 
 /**
- * 用于将ps2接口格式转换成USB接口格式
+ * 鐢ㄤ簬灏唒s2鎺ュ彛鏍煎紡杞崲鎴愪负USB鎺ュ彛鏍煎紡
  * @author hao.gao
  *
  */

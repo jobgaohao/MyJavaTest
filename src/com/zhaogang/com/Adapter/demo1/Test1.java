@@ -1,7 +1,7 @@
 package com.zhaogang.com.Adapter.demo1;
 
 /**
- * �����и�ps2��ͷ���豸������������ֻ��USB��ͷ�ӿڣ�ͨ����������Ps2�ӿ�ת����USB�ӿ�
+ * 我手中有个ps2插头的设备，但是主机上只有usb插头的插口，怎么办呢？弄个转换器，将ps2插头转换成为USB插头就可以使用了。
  * @author hao.gao
  *
  */

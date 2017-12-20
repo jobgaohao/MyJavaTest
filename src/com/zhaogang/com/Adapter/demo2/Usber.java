@@ -1,10 +1,15 @@
 package com.zhaogang.com.Adapter.demo2;
 
+/**
+ * 鏄帴鍙sb鐨勫疄鐜扮被锛屾槸鍏蜂綋鐨刄SB鎺ュ彛鏍煎紡
+ * @author hao.gao
+ *
+ */
 public class Usber implements Usb {
 
 	@Override
 	public void isUsb() {
-		System.out.println("USB接口");
+		System.out.println("USB锟接匡拷");
 	}
 
 }

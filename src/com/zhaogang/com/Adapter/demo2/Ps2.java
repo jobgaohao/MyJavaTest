@@ -1,7 +1,7 @@
 package com.zhaogang.com.Adapter.demo2;
 
 /**
- * Ps2�ӿ�
+ * 描述ps2接口格式
  * @author hao.gao
  *
  */

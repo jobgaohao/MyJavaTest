@@ -1,7 +1,7 @@
 package com.zhaogang.com.Adapter.demo2;
 
 /**
- * Usb�ӿ�
+ * 描述USB接口格式
  * @author hao.gao
  *
  */
