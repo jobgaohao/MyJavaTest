@@ -2,9 +2,7 @@ package com.zhaogang.com.Proxy;
 
 import java.io.FileOutputStream;
 import java.lang.reflect.Proxy;
-
 import sun.misc.ProxyGenerator;
-
 /**
  * 
  * <pre>
