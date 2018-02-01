@@ -9,7 +9,14 @@ import java.util.Set;
 public class ListTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+		 List<Long> liLong=new ArrayList<Long>();
+		 liLong.add(null);
+		 liLong.add(null);
+		 System.out.println(liLong);
+		
+		
         //List
 		List list=new ArrayList(); 
 		list.add("test1");
