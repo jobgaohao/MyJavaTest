@@ -1,6 +1,7 @@
 package com.zhaogang.com.arrayList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -28,9 +29,29 @@ import java.util.List;
  */
 public class Demo1 {
 
+	/**
+	 * 删除 ArrayList指定元素
+	 * @param args
+	 */
     public static void main(String[] args) {
         List<String> li=new ArrayList<String>();
         li.add("上海");
         li.add("武汉");
+        li.add("成都");
+        li.add("武汉1");
+        for (String str : li) {
+			if(str.indexOf("武汉")>=0){
+			  //li.remove(str);	//会抛出异常	java.util.ConcurrentModificationException		
+			}
+		}
+        
+        Iterator<String> it=li.iterator();
+        while(it.hasNext()){
+        	String x=it.next();
+        	if(x.indexOf("武汉")>=0){
+        		it.remove();
+        	}
+        }
+        System.out.println(li); 
     }
 }
